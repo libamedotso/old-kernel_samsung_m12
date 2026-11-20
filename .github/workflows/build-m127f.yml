@@ -61,7 +61,7 @@ jobs:
           git fetch origin
 
           echo "=== Switching to latest legacy branch ==="
-          git checkout -B legacy origin/legacy
+          git checkout -B legacy origin/dev
 
           echo "=== KernelSU commit ==="
           git rev-parse HEAD
